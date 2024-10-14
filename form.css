@@ -1,0 +1,27 @@
+
+body{
+    font-family: arial;
+
+}
+h1{
+    padding:0 0 0 40px;
+
+}
+#wrapper{
+    background-color: #eee;
+    list-style: none;
+    margin: 50px;
+    padding: 20px;
+    
+}
+#wrapper li{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+#wrapper li label{
+flex: 1;
+}
+#wrapper li input{
+    flex: 3;
+}

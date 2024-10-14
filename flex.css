@@ -1,0 +1,75 @@
+body{
+font-family: arial;
+}
+
+h1{
+    padding: 0 0 0 40px;
+}
+.container{
+    background-color: #eee;
+    width: 600px;
+    margin:50px auto 0;
+    padding:10px;
+    border:3px solid #000;
+    
+    
+   
+   
+    display: flex;
+    flex-direction: column;
+
+    /*align-items: flex-start
+    flex-wrap: wrap;
+    align-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    flex-flow: column wrap-reverse;
+    justify-content: space-around;
+    align-items: baseline;*/
+
+}
+.items{ 
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+   text-align: center;
+   margin: 0px;
+ height: 100px;
+
+
+}
+.item1{
+    background-color: orangered;
+    /* align-self:baseline;
+   flex-shrink: 0;
+    order: 1;
+    flex-basis: 200px;*/
+}
+
+.item2{
+    background-color: yellowgreen;
+   /* flex-grow: 3;*/
+   display: flex;
+}
+/*create Nested flex*/
+
+.item2> .subitem{
+    background-color: wheat;
+    color: mediumpurple;
+    flex-grow: 1;
+    margin: 5px;
+}
+.item3{
+    background-color: mediumpurple;
+    /*margin-left: auto;*/
+}
+.item4{
+    background-color: hotpink;
+}
+.item5{
+    background-color: aquamarine;
+}
+.item6{
+    background-color: brown;
+    /*order:-1;*/
+}
